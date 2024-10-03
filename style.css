@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: hsl(243, 87%, 12%);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px 0;
+}
+
+header img {
+    height: 40px;
+    width: 140px;
+}
+
+header ul {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header ul a {
+    color: hsl(243, 87%, 12%);
+    font-family: Raleway, sans-serif;
+    height: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Sections */
+
+/* Section 1 */
+
+.section1 {
+    align-items: center;
+    background: url(./images/bg-curve-desktop.svg) no-repeat bottom;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 100px 80px 200px;
+}
+
+.section1 .text {
+    width: 50%;
+}
+
+.section1 .text h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 2.2rem;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.section1 .form {
+    display: flex;
+    gap: 16px;
+    height: 44px;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.section1 .form input {
+    border-radius: 5px;
+    border: 1px solid hsl(238, 22%, 44%);
+    height: 100%;
+    outline: none;
+    padding: 20px;
+    width: 60%;
+}
+
+.section1 .form button {
+    background: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+    width: 40%;
+}
+
+.section1 .form button:hover {
+    background-color: hsla(224, 93%, 58%, 0.6);
+}
+
+.section1 img {
+    width: 50%;
+}
+
+/* Section 2 */
+
+.section2 {
+    align-items: center;
+    background-color: hsl(240, 75%, 98%);
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 60px 80px 100px;
+}
+
+.section2 .text {
+    width: 50%;
+}
+
+.section2 .text h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section2 .text>p:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.section2 .text a {
+    align-items: center;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    color: hsl(170, 45%, 43%);
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+    padding: 0 0 4px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.section2 .text a img {
+    height: 16px;
+    width: 16px;
+}
+
+.section2 .text a:hover {
+    border-color: hsla(170, 45%, 43%, 0.6);
+    color: hsla(170, 45%, 43%, 0.6);
+}
+
+.section2 .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px hsla(238, 22%, 44%, 0.1);
+    margin-top: 40px;
+    padding: 20px;
+    width: 70%;
+}
+
+.section2 .card>img {
+    height: 12px;
+    width: 13px;
+}
+
+.section2 .card>p {
+    margin-bottom: 20px;
+}
+
+.section2 .card .kyle {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.section2 .card .kyle .kyle-info p:nth-child(1) {
+    font-weight: bold;
+}
+
+.section2 .card .kyle .kyle-info p:nth-child(2) {
+    font-size: 0.9rem;
+}
+
+.section2 .card .kyle img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.section2>img {
+    width: 50%;
+}
+
+/* Section 3 */
+
+.section3 {
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.section3 .text {
+    width: 40%;
+}
+
+.section3 .text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.section3 .form {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+.section3 .form input {
+    border-radius: 2px;
+    border: none;
+    height: 48px;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+}
+
+.section3 .form button {
+    background: hsl(224, 93%, 58%);
+    border-radius: 2px;
+    border: none;
+    box-shadow: 2px 4px 10px 2px hsla(243, 87%, 12%, 0.1);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    height: 48px;
+    width: 40%;
+}
+
+.section3 .form button:hover {
+    background-color: hsla(224, 93%, 58%, 0.6);
+}
+
+/* Footer */
+
+footer {
+    align-items: flex-start;
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 80px 120px;
+}
+
+footer>img {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(88%) saturate(1%) hue-rotate(266deg) brightness(110%) contrast(97%);
+}
+
+footer .opt {
+    align-items: flex-start;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+footer .info p:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+footer .info img {
+    margin-right: 10px;
+}
+
+footer .det-1 ul,
+footer .det-2 ul {
+    list-style-type: none;
+}
+
+footer .det-1 li,
+footer .det-2 li {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+footer .det-1 li:hover,
+footer .det-2 li:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+footer .social-media {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+footer .social-media div {
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    cursor: pointer;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+}
+
+footer .social-media div:hover {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(94%) saturate(1324%) hue-rotate(207deg) brightness(103%) contrast(95%);
+}
+
+footer .social-media svg {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(88%) saturate(1%) hue-rotate(266deg) brightness(110%) contrast(97%);
+    height: 14px;
+    width: 14px;
+}
+
+.attribution {
+    display: none;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 900px) {
+    header ul {
+        gap: 10px;
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .section1 img {
+        width: 100%;
+    }
+
+    .section1 .text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section1 .text .form {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .section1 .text .form input,
+    .section1 .text .form button {
+        height: 44px;
+        width: 100%;
+    }
+
+    .section2 {
+        flex-direction: column-reverse;
+    }
+
+    .section2 img {
+        width: 100%;
+    }
+
+    .section2 .text {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .section2 .text>p {
+        text-align: left;
+    }
+
+    .section2 .card {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section3 {
+        flex-direction: column;
+    }
+
+    .section3 .form {
+        width: 100%;
+    }
+
+    .section3 .text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section3 .form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    footer {
+        gap: 40px;
+    }
+
+    footer .opt {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    footer .det-1 li,
+    footer .det-2 li {
+        margin-bottom: 10px;
+    }
+
+    footer .social-media {
+        align-self: center;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        gap: 10px;
+        padding: 40px 40px 0;
+    }
+
+    header img {
+        height: 30px;
+        width: 100px;
+    }
+
+    header li {
+        font-size: 0.9rem;
+    }
+
+    .section1 {
+        padding: 100px 40px 200px;
+    }
+
+    .section2 {
+        padding: 60px 40px 100px;
+    }
+
+    .section3 {
+        padding: 40px;
+    }
+
+    footer {
+        padding: 100px 40px 120px;
+    }
+}
+
+@media (max-width: 375px) {
+    .section1 {
+        background: url(./images/bg-curve-mobile.svg) no-repeat bottom;
+    }
+}
